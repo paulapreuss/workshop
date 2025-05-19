@@ -2,7 +2,7 @@ from src.utils.cooking_techniques import mix, bake
 
 def banana_cake(*ingredients):
     if "banana" not in ingredients:
-        print("this is going to be a problem :(")
+        print("No banana found, please check your ingredients")
     dough = mix(*ingredients)
     return bake(dough)
 
