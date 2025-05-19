@@ -13,3 +13,7 @@ def pekan_pie(*ingredients):
     print("watch out for nut allergies")
     dough = mix(*ingredients)
     return bake(dough)
+
+def key_lime_pie(*ingredients):
+    dough = mix(*ingredients)
+    return bake(dough)
