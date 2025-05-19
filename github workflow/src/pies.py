@@ -1,7 +1,7 @@
 from src.utils.cooking_techniques import mix, bake
 
 
-def pekan_pie(*ingredients):
+def pecan_pie(*ingredients):
     dough = mix(*ingredients)
     return bake(dough)
 
