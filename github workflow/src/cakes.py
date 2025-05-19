@@ -5,10 +5,12 @@ def banana_cake(*ingredients):
     return bake(dough)
 
 def cheesecake(*ingredients):
+    print("Watch out for lactose intolerance")
     dough = mix(*ingredients)
     return bake(dough)
 
 def pekan_pie(*ingredients):
+    print("Watch out for nut allergies")
     dough = mix(*ingredients)
     return bake(dough)
 
