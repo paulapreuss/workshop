@@ -7,6 +7,6 @@ def pecan_pie(*ingredients):
 
 def key_lime_pie(*ingredients):
     if "lime" not in ingredients:
-        print("that is so sad :(")
+        print("Lime missing")
     dough = mix(*ingredients)
     return bake(dough)
